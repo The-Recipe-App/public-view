@@ -1,0 +1,17 @@
+__pycache__
+.pytest_cache
+.vscode
+*.db
+local_buckets
+models
+.env
+models/embedding_model/config_sentence_transformers.json
+models/embedding_model/config.json
+models/embedding_model/model.safetensors
+models/embedding_model/modules.json
+models/embedding_model/README.md
+models/embedding_model/sentence_bert_config.json
+models/embedding_model/tokenizer_config.json
+models/embedding_model/tokenizer.json
+models/embedding_model/1_Pooling/config.json
+auth_failuer.zip

@@ -1,0 +1,87 @@
+recipesPage: [
+    {
+        id: "r1",
+        slug: "juicy-smash-burgers",
+        title: "Juicy Smash Burgers",
+        media: {
+            hero_image: "https://images.unsplash.com/photo-1550547660-d9450f859349",
+            has_video: true,
+        },
+        author: { id: "u1", username: "BurgerDude" },
+        lineage: {
+            is_fork: false,
+            depth: 0,
+            forks_count: 150,
+            improvements_count: 12,
+        },
+        stats: {
+            views: 4300,
+            forks: 150,
+            likes: 820,
+            used_by: 300,
+        },
+        meta: {
+            time_minutes: 25,
+            difficulty: "easy",
+        },
+        tags: ["quick", "comfort"],
+        status: {
+            is_trending: true,
+            is_verified: true,
+            is_experimental: false,
+        },
+        timestamps: {},
+    },
+]
+
+Details: [
+    {
+        id: "r1",
+        slug: "juicy-smash-burgers",
+        title: "Juicy Smash Burgers",
+        media: {
+            hero_image: "https://images.unsplash.com/photo-1550547660-d9450f859349",
+            has_video: true,
+        },
+        author: { username: "BurgerDude" },
+        meta: { time_minutes: 25, difficulty: "easy" },
+        stats: { forks: 150 },
+        ingredients: [
+            "1 lb ground beef (80/20)",
+            "Salt",
+            "Pepper",
+            "Burger buns",
+            "American cheese",
+        ],
+        steps: [
+            "Heat skillet until very hot.",
+            "Divide beef into balls.",
+            "Smash beef balls onto pan.",
+            "Season generously.",
+            "Flip and add cheese.",
+            "Toast buns and assemble.",
+        ],
+        lineage: [
+            { author: "BurgerDude", change: "Original recipe" },
+            { author: "GrillMaster", change: "Added caramelized onions" },
+            { author: "BettyBuns", change: "Used brioche buns" },
+        ],
+        forks: [
+            { id: "f1", author: "GrillMaster", summary: "Sweeter onions" },
+            { id: "f2", author: "SpiceLord", summary: "Added chili oil" },
+        ],
+    },
+]
+
+HomePage: [
+    { id: "r1", title: "Smash Burger - sear tweak", img: "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop", tags: ["All", "Quick"] },
+    { id: "r4", title: "Ramen - chili oil ratio", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=800&auto=format&fit=crop", tags: ["All", "Comfort"] },
+    { id: "r2", title: "Garlic pasta - low heat", img: "https://images.unsplash.com/photo-1525755662778-989d0524087e?q=80&w=800&auto=format&fit=crop", tags: ["All", "Vegan"] },
+    { id: "r5", title: "Buddha bowl - roast nuance", img: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=800&auto=format&fit=crop", tags: ["All", "Vegan"] },
+]
+
+dataToExport: 
+{
+    
+
+}
